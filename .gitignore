@@ -9,3 +9,4 @@ doc/app
 *.swp
 * ̃
 .DS_Store
+/autotest/* 
