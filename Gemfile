@@ -2,11 +2,8 @@ source 'http://rubygems.org'
 
 gem 'rails'
 gem 'spork', '0.9.0.rc9'
-
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
-
 gem 'sqlite3-ruby', :require => 'sqlite3'
+gem "gravatar_image_tag", "~> 1.0.0"
 
 group :development do
 	gem 'rspec-rails', '2.7.0'
@@ -17,6 +14,7 @@ group :test do
 	gem 'rspec-rails', '2.7.0'
         gem 'ZenTest'
 	gem 'webrat'
+        gem "factory_girl_rails", "~> 1.4.0"
 end
 
 
